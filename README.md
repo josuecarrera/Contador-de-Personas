@@ -28,7 +28,7 @@ pip install numpy opencv-python-headless pillow shapely
 Para la instalacion de ultralytics ejecutar los siguiente comandos
 Install the ultralytics package from PyPI
 ```bash
-pip install numpy opencv-python-headless pillow shapely 
+pip install ultralytics
 ```
 Install the ultralytics package from GitHub
 ```bash
