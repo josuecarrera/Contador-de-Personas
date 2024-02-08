@@ -1,5 +1,5 @@
 # Contador-de-Personas
-El siguiente proyecto es un contador de personas usando Python, este proyecto surge para mejorar nuestros conocimentos de Deep Learnig y el procesamiento de información en este caso de video e imagenes
+El siguiente proyecto es un contador de personas usando Python, este proyecto surge para mejorar nuestros conocimentos de Deep Learning with Python
 # Detección de Movimiento con Python utilizando OpenCV y Tkinter
 
 Este proyecto tiene como objetivo implementar un sistema de conteo y de detección de movimiento utilizando Python y las siguientes librerías:
