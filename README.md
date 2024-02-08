@@ -2,7 +2,7 @@
 El siguiente proyecto es un contador de personas usando Python, este proyecto surge para mejorar nuestros conocimentos de Deep Learnig y el procesamiento de información en este caso de video e imagenes
 # Detección de Movimiento con Python utilizando OpenCV y Tkinter
 
-Este proyecto tiene como objetivo implementar un sistema de detección de movimiento utilizando Python y las siguientes librerías:
+Este proyecto tiene como objetivo implementar un sistema de conteo y de detección de movimiento utilizando Python y las siguientes librerías:
 
 - `tkinter`: Para la creación de interfaces gráficas.
 - `PIL`: Para trabajar con imágenes.
@@ -22,8 +22,21 @@ El sistema desarrollado es capaz de detectar movimiento en una secuencia de vide
 Es necesario instalar las siguientes librerías de Python para ejecutar el proyecto:
 
 ```bash
-pip install numpy opencv-python-headless pillow shapely ultralytics
+pip install numpy opencv-python-headless pillow shapely 
 ```
+
+Para la instalacion de ultralytics ejecutar los siguiente comandos
+Install the ultralytics package from PyPI
+```bash
+pip install numpy opencv-python-headless pillow shapely 
+```
+Install the ultralytics package from GitHub
+```bash
+pip install git+https://github.com/ultralytics/ultralytics.git@main
+```
+Para mayor información de las librerias consulte
+
+[ultralytics](https://docs.ultralytics.com/es/quickstart/#install-ultralytics)
 
 # Estructura del Proyecto
 
@@ -36,4 +49,6 @@ Para ejecutar el programa, simplemente ejecute el script main.py:
 ```bash
   python main.py
 ```
+# Funcionamiento del Programa
 
+Al ejecutar el programa, se abrirá una ventana de interfaz gráfica que mostrará el video en tiempo real. El algoritmo de detección de movimiento se aplicará automáticamente al video. Las regiones donde se detecta movimiento se resaltarán en la ventana de visualización.
